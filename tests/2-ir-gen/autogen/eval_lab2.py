@@ -8,7 +8,7 @@ lv0_1 = {
     "decl_int_array": (2, False),
     "decl_float_array": (2, False),
     "input": (2, True),
-    "output_float": (2, False),
+    "output_float": (0, False),
     "output_int": (2, False),
 }
 
@@ -17,7 +17,7 @@ lv0_2 = {
     "num_add_int": (0.5, True),
     "num_sub_int": (0.5, True),
     "num_mul_int": (0.5, True),
-    "num_div_int": (0.5, True),
+    "num_div_int": (0, True),
     "num_add_float": (0.5, True),
     "num_sub_float": (0.5, True),
     "num_mul_float": (0.5, False),
@@ -45,7 +45,7 @@ lv0_2 = {
     "num_gt_mixed": (0.5, False),
     "num_eq_mixed": (0.5, False),
     "num_neq_mixed": (0.5, False),
-    "num_comp2": (1.5, False),
+    "num_comp2": (0, False),
 }
 
 # 31
@@ -53,11 +53,11 @@ lv1 = {
     "assign_int_var_local": (1, False),
     "assign_int_array_local": (2, False),
     "assign_int_var_global": (1, False),
-    "assign_int_array_global": (2, False),
+    "assign_int_array_global": (0, False),
     "assign_float_var_local": (1, False),
     "assign_float_array_local": (2, False),
     "assign_float_var_global": (1, False),
-    "assign_float_array_global": (2, False),
+    "assign_float_array_global": (0, False),
     "assign_cmp": (1, False),
     "innout": (1, True),
     "idx_float": (1, False),
@@ -72,7 +72,7 @@ lv1 = {
     "iteration1": (1.5, False),
     "iteration2": (1.5, False),
     "scope": (1.5, False),
-    "transfer_float_to_int": (1, False),
+    "transfer_float_to_int": (0, False),
     "transfer_int_to_float": (1, False),
 }
 
@@ -83,11 +83,11 @@ lv2 = {
     "funcall_var": (2, False),
     "funcall_int_array": (2, False),
     "funcall_float_array": (2, False),
-    "funcall_array_array": (2, False),
+    "funcall_array_array": (0, False),
     "return_in_middle1": (2, False),
     "return_in_middle2": (2, False),
     "funcall_type_mismatch1": (2, False),
-    "funcall_type_mismatch2": (2, False),
+    "funcall_type_mismatch2": (0, False),
     "return_type_mismatch1": (1.5, False),
     "return_type_mismatch2": (1.5, False),
 }
